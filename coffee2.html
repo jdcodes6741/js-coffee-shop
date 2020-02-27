@@ -74,7 +74,12 @@
         }, 1500);
         
 
-
+                // display this image for 2500 ms
+        setTimeout(function() {
+            // coffeeImage.setAttribute('src', 'static/coffee_mug.jpg')
+            coffeeImage.attr('src', 'static/coffee_mug.jpg');
+        }, 2500);
+        
         // change back to this image, must increase the delay by all previous 
         // timers so it doesn't run before we want it
         setTimeout(function() {
